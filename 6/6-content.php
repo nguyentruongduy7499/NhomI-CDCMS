@@ -14,10 +14,12 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-6">
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 col-sm-9">
                 <div class="panel">
                     <div class="title-1">
-                        <div class="hinh" ></div>
+                        <div class="hinh" >
+                            <img class="images" src="./images/3.jpg" alt="">
+                        </div>
                         <h3>
                             <a href="#" class="txt"> We're Open ! </a>
                         </h3>
@@ -110,7 +112,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="panel">
                     <h3 class="px"> Your Order</h3>
                     <div class="ntn">
@@ -127,20 +129,20 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="panel">
                     <h3 class="px"> Top Rated Products</h3>
-                    <ul>
-                        <li>
+                    <ul class="list">
+                        <li class="underlined">
                             <a class="name" href="#"> Chicken </a>
                             <span class="price"> $5.95 </span>
                         </li>
-                         <li>
+                         <li class="underlined">
                             <a class="name" href="#"> Chocolate Moose Cake</a>
                             <span class="price"> $2.50 </span>
                         </li>
-                         <li>
+                         <li class="underlined">
                             <a class="name" href="#"> Colossal Cheesecake with Raspberry Sauce </a>
                             <span class="price"> $4.00 </span>
                         </li>
-                         <li>
+                         <li class="underlined">
                             <a class="name" href="#"> Flat </a>
                             <span class="price"> $5.95 </span>
                         </li>

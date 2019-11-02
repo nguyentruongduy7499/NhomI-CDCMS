@@ -1,19 +1,30 @@
 .type-6 {
+  overflow: hidden;
   background: #edeae6;
   color: #585858;
   font-size: 16px;
+}
+@media (max-width: 992px) {
+  .type-6 .col-md-3 {
+    display: none;
+    width: 25%;
+  }
+}
+.type-6 .title-1 {
+  margin: 25px;
 }
 .type-6 .row {
   margin-top: 5%;
 }
 .type-6 .hinh {
-  margin-top: 20px;
-  background-image: url('../images/3.jpg');
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  border: transparent 1px solid;
+  border-color: #d7d7d7;
+  margin-bottom: 22px;
+  padding: 1px;
+}
+.type-6 .hinh .images {
+  max-width: 100%;
+  height: auto;
 }
 .type-6 .meta {
   margin-top: 20px;
@@ -37,7 +48,7 @@
   display: inline-block;
   width: 100%;
   padding: 22px;
-  margin: 0 0 44px 0;
+  margin: 0 0 22px 0;
   box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
   z-index: 1;
 }
@@ -87,15 +98,13 @@
   display: block;
   font-weight: bold;
 }
-.type-6 .ol,
-.type-6 ul {
-  margin-left: -17%;
-  margin-top: 0;
-  margin-bottom: 10px;
+.type-6 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
-.type-6 .ul,
-.type-6 li {
+.type-6 .underlined {
   border-color: #d7d7d7;
   border-bottom: 1px dotted;
+  padding: 5px 0;
 }
