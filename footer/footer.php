@@ -12,7 +12,7 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/4.less', 'css/4.css');
+$less->compileFile('less/footer.less', 'css/footer.css');
 ?>
 
 <!DOCTYPE html>
@@ -26,12 +26,12 @@ $less->compileFile('less/4.less', 'css/4.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>        
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/footer.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/4.js"></script>
+        <script src="<?php echo $url_path ?>/js/footer.js"></script>
     </head>
     <body> 
-        <?php include '4-content.php'; ?>
+        <?php include 'footer-content.php'; ?>
     </body>
 </html>
